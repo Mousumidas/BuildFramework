@@ -10,7 +10,7 @@
       <description></description>
       <id>2cdfc245-7199-4b28-bc72-a7ae9e094d28</id>
       <masked>true</masked>
-      <name>ClickValue</name>
+      <name>ClickProjects</name>
    </variable>
    <variable>
       <defaultValue>'Stages'</defaultValue>

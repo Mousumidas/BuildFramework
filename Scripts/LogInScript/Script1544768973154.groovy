@@ -14,9 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import loginScriptPage.UserLogIn as UserLogIn
 
-
-
 	
 CustomKeywords.'loginScriptPage.UserLogIn.LogIn'()
-CustomKeywords.'loginScriptPage.UserLogIn.ClickSettingsButton'(StagesClick)
+CustomKeywords.'loginScriptPage.UserLogIn.ClickSettingsButton'(ClickProjects)
 		

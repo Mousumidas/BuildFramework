@@ -4,10 +4,52 @@
    <name>QA</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>suresh.yadida@astoriasolutions.com;nikhil.n@astoriasolutions.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>a75a55bd-721d-4460-8d70-9f350b13546d</testSuiteGuid>
+   <testCaseLink>
+      <guid>3d23fc70-2f52-4779-b99d-2873628e8619</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LogInScript</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cdfc245-7199-4b28-bc72-a7ae9e094d28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e3f5dabf-325c-4500-a7b2-edc81c056688</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aeb06b03-b80b-4e6d-8845-14ee35780e4d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b73ac73a-33ba-4321-a544-0bdcb9f2780e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CreateNewProject</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce9a7100-905f-44d2-81d6-a90f556ee705</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbcc73ee-fe55-4f61-8e51-18474c3139df</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

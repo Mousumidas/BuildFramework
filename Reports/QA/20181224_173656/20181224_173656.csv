@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+QA,Chrome 71.0.3578.98,,2018-12-24 17:36:59,2018-12-24 17:38:35,1m - 35.287s,FAILED
+,,,,,,
+Test Cases/LogInScript,Chrome 71.0.3578.98,,2018-12-24 17:37:00,2018-12-24 17:37:25,24.505s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-24 17:37:00,2018-12-24 17:37:17,16.806s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2018-12-24 17:37:17,2018-12-24 17:37:18,0.514s,PASSED
+loginScriptPage.UserLogIn.ClickSettingsButton(ClickProjects),Chrome 71.0.3578.98,,2018-12-24 17:37:18,2018-12-24 17:37:24,5.566s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-24 17:37:24,2018-12-24 17:37:25,1.062s,PASSED
+,,,,,,
+Test Cases/CreateNewProject,Chrome 71.0.3578.98,,2018-12-24 17:37:25,2018-12-24 17:38:35,1m - 9.922s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2018-12-24 17:37:25,2018-12-24 17:37:40,15.123s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2018-12-24 17:37:40,2018-12-24 17:37:40,0.448s,PASSED
+loginScriptPage.UserLogIn.ClickSettingsButton(ClickOnProject),Chrome 71.0.3578.98,,2018-12-24 17:37:40,2018-12-24 17:37:46,5.367s,PASSED
+createNewProject.NewProject.AddNewProject(AddCountry),Chrome 71.0.3578.98,,2018-12-24 17:37:46,2018-12-24 17:38:33,47.536s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-24 17:38:33,2018-12-24 17:38:35,1.143s,PASSED

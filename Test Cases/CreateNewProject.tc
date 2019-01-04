@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateNewProject</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2adf58f2-858b-49dd-a784-e66e150bcf1a</testCaseGuid>
+   <variable>
+      <defaultValue>'Projects'</defaultValue>
+      <description></description>
+      <id>ce9a7100-905f-44d2-81d6-a90f556ee705</id>
+      <masked>false</masked>
+      <name>ClickOnProject</name>
+   </variable>
+   <variable>
+      <defaultValue>'Switzerland'</defaultValue>
+      <description></description>
+      <id>dbcc73ee-fe55-4f61-8e51-18474c3139df</id>
+      <masked>false</masked>
+      <name>AddCountry</name>
+   </variable>
+</TestCaseEntity>
