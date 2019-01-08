@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AstorWork" time="75" tests="2" failures="0" errors="0">
+   <testsuite name="AstorWork" tests="2" failures="0" errors="0" time="75" timestamp="2019-01-08 11:46:05" hostname="Nikhil - 192.168.4.204" id="Test Suites/AstorWork">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\Reports\\AstorWork\\20190108_114559"/>
+         <property name="logFiles" value="C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\Reports\\AstorWork\\20190108_114559\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\ReportsTest Cases\\ScreenShoots\\Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork_Jan-08-2019_11_46_33.PNG, C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\ReportsTest Cases\\ScreenShoots\\Test Cases/AstorWork/TC_02_VerifyCreatingNewProject_Jan-08-2019_11_47_19.PNG"/>
+         <property name="hostName" value="Nikhil - 192.168.4.204"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.4.204"/>
+         <property name="sessionId" value="5890d651fdee3ebd0d2cc411429920ce"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork" classname="Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork" status="PASSED">
+         <system-out><![CDATA[2019-01-08 11:46:06 - [TEST_CASE][PASSED] - Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork: Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork
+
+2019-01-08 11:46:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-08 11:46:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 11:46:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-08 11:46:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-08 11:46:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 11:46:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 11:46:13 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:27 - [MESSAGE][PASSED] - Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:27 - [TEST_STEP][PASSED] - loginScriptPage.UserLogIn.LogIn(): loginScriptPage.UserLogIn.LogIn is PASSED
+
+2019-01-08 11:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/UserPage/Input_UserName' is present
+
+2019-01-08 11:46:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UserPage/Input_UserName'
+
+2019-01-08 11:46:28 - [MESSAGE][PASSED] - Text 'abc12345' is set on object 'Object Repository/UserPage/Password'
+
+2019-01-08 11:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UserPage/LogInButton' is clicked on
+
+2019-01-08 11:46:28 - [MESSAGE][PASSED] - loginScriptPage.UserLogIn.LogIn is PASSED
+
+2019-01-08 11:46:28 - [TEST_STEP][PASSED] - loginScriptPage.UserLogIn.ClickSettingsButton(ClickProjects): loginScriptPage.UserLogIn.ClickSettingsButton is PASSED
+
+2019-01-08 11:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/SettingsBtn_Click' is clicked on
+
+2019-01-08 11:46:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:46:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-08 11:46:33 - [MESSAGE][PASSED] - loginScriptPage.UserLogIn.ClickSettingsButton is PASSED
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - excutionSource = getExecutionSource(): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - logFolderPath = getLogFolderPath(): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - userDir = System.getProperty("user.dir") + "\ReportsTest Cases\ScreenShoots": null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - name = testCaseId: null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - if (status == "FAILED"): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - if (status == "PASSED"): Taking screenshot successfully
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - todaysDate = today.format("MMM-dd-yyyy"): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - nowTime = today.format("hh_mm_ss"): null
+
+2019-01-08 11:46:33 - [TEST_STEP][PASSED] - waitForPageLoad(9): Wait for page load successfully
+
+2019-01-08 11:46:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-08 11:46:34 - [TEST_STEP][PASSED] - takeScreenshot(userDir + "\" + name + "_" + todaysDate + "_" + nowTime + ".PNG"): Taking screenshot successfully
+
+2019-01-08 11:46:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\ReportsTest Cases\\ScreenShoots\\Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork_Jan-08-2019_11_46_33.PNG]]
+
+2019-01-08 11:46:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-08 11:46:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AstorWork/TC_02_VerifyCreatingNewProject" classname="Test Cases/AstorWork/TC_02_VerifyCreatingNewProject" status="PASSED">
+         <system-out><![CDATA[2019-01-08 11:46:35 - [TEST_CASE][PASSED] - Test Cases/AstorWork/TC_02_VerifyCreatingNewProject: Test Cases/AstorWork/TC_02_VerifyCreatingNewProject
+
+2019-01-08 11:46:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-08 11:46:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 11:46:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-08 11:46:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 11:46:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 11:46:39 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:50 - [MESSAGE][PASSED] - Navigate to 'http://tenant1.astorworkqa.com/login' successfully
+
+2019-01-08 11:46:50 - [TEST_STEP][PASSED] - loginScriptPage.UserLogIn.LogIn(): loginScriptPage.UserLogIn.LogIn is PASSED
+
+2019-01-08 11:46:50 - [MESSAGE][PASSED] - Object 'Object Repository/UserPage/Input_UserName' is present
+
+2019-01-08 11:46:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UserPage/Input_UserName'
+
+2019-01-08 11:46:51 - [MESSAGE][PASSED] - Text 'abc12345' is set on object 'Object Repository/UserPage/Password'
+
+2019-01-08 11:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UserPage/LogInButton' is clicked on
+
+2019-01-08 11:46:51 - [MESSAGE][PASSED] - loginScriptPage.UserLogIn.LogIn is PASSED
+
+2019-01-08 11:46:51 - [TEST_STEP][PASSED] - loginScriptPage.UserLogIn.ClickSettingsButton(ClickOnProject): loginScriptPage.UserLogIn.ClickSettingsButton is PASSED
+
+2019-01-08 11:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/SettingsBtn_Click' is clicked on
+
+2019-01-08 11:46:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:46:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-08 11:46:56 - [MESSAGE][PASSED] - loginScriptPage.UserLogIn.ClickSettingsButton is PASSED
+
+2019-01-08 11:46:56 - [TEST_STEP][PASSED] - createNewProject.NewProject.AddNewProject(AddCountry): createNewProject.NewProject.AddNewProject is PASSED
+
+2019-01-08 11:47:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-08 11:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ClickAddButton/ClickPlusIcon' is clicked on
+
+2019-01-08 11:47:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-08 11:47:07 - [MESSAGE][PASSED] - Text 'Astoria'01082019''11:47:02'' is set on object 'Object Repository/CreateProject/ProjectName'
+
+2019-01-08 11:47:07 - [MESSAGE][PASSED] - Text 'Adding Project in 'Switzerland'' is set on object 'Object Repository/CreateProject/Description'
+
+2019-01-08 11:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateProject/ClickCountry' is clicked on
+
+2019-01-08 11:47:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-08 11:47:13 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-01-08 11:47:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-08 11:47:13 - [MESSAGE][PASSED] - Text '01/08/2019' is set on object 'Object Repository/CreateProject/SetStartDate'
+
+2019-01-08 11:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateProject/EndDateProject' is clicked on
+
+2019-01-08 11:47:14 - [MESSAGE][PASSED] - Text '05/22/2021' is set on object 'Object Repository/CreateProject/EndDateProject'
+
+2019-01-08 11:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateProject/SaveButton' is clicked on
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Smart Home @ Punggol'
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Uppal New Mall'
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12272018''02:52:18''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12272018''03:01:38''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12272018''04:56:23''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12272018''05:13:51''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12272018''05:36:02''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12282018''10:37:15''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12282018''10:51:10''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Text of object '' is: 'Astoria'12282018''10:55:35''
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - createNewProject.NewProject.AddNewProject is PASSED
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - excutionSource = getExecutionSource(): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - logFolderPath = getLogFolderPath(): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - userDir = System.getProperty("user.dir") + "\ReportsTest Cases\ScreenShoots": null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - name = testCaseId: null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - if (status == "FAILED"): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - if (status == "PASSED"): Taking screenshot successfully
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - todaysDate = today.format("MMM-dd-yyyy"): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - nowTime = today.format("hh_mm_ss"): null
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - waitForPageLoad(9): Wait for page load successfully
+
+2019-01-08 11:47:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-08 11:47:19 - [TEST_STEP][PASSED] - takeScreenshot(userDir + "\" + name + "_" + todaysDate + "_" + nowTime + ".PNG"): Taking screenshot successfully
+
+2019-01-08 11:47:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Nikhil\\Desktop\\Katalon\\AutomationProject\\ReportsTest Cases\\ScreenShoots\\Test Cases/AstorWork/TC_02_VerifyCreatingNewProject_Jan-08-2019_11_47_19.PNG]]
+
+2019-01-08 11:47:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-08 11:47:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-08 11:46:05 - [TEST_SUITE][PASSED] - AstorWork: Test Cases/AstorWork/TC_02_VerifyCreatingNewProject]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

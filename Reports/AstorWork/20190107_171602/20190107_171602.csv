@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AstorWork,Chrome 71.0.3578.98,,2019-01-07 17:16:11,2019-01-07 17:17:09,58.719s,FAILED
+,,,,,,
+Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork,Chrome 71.0.3578.98,,2019-01-07 17:16:14,2019-01-07 17:16:47,33.022s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-07 17:16:14,2019-01-07 17:16:37,22.038s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2019-01-07 17:16:37,2019-01-07 17:16:38,0.881s,PASSED
+loginScriptPage.UserLogIn.ClickSettingsButton(ClickProjects),Chrome 71.0.3578.98,,2019-01-07 17:16:38,2019-01-07 17:16:45,6.818s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-07 17:16:45,2019-01-07 17:16:47,2.124s,PASSED
+,,,,,,
+Test Cases/AstorWork/TC_02_VerifyCreatingNewProject,Chrome 71.0.3578.98,,2019-01-07 17:16:47,2019-01-07 17:17:06,19.351s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-07 17:16:47,2019-01-07 17:17:05,18.276s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2019-01-07 17:17:06,2019-01-07 17:17:06,0.089s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-07 17:17:06,2019-01-07 17:17:06,0.075s,ERROR

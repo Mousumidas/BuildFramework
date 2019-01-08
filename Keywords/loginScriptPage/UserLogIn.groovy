@@ -53,6 +53,7 @@ public class UserLogIn {
 	//Set Credentials for Login
 	@Keyword
 	def public static void LogIn() {
+
 		WebUI.waitForElementPresent(findTestObject('Object Repository/UserPage/Input_UserName'), 15)
 		WebUI.setText(findTestObject('Object Repository/UserPage/Input_UserName'), GlobalVariable.UserName)
 		WebUI.setText(findTestObject('Object Repository/UserPage/Password'), GlobalVariable.Password)

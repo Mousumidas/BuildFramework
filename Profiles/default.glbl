@@ -19,4 +19,19 @@
       <initValue>'abc12345'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://astoria-qa.astorsafe.com/Login.aspx'</initValue>
+      <name>AstorSafe</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin1'</initValue>
+      <name>SafeUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1@a5t0rsafe'</initValue>
+      <name>SafePassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

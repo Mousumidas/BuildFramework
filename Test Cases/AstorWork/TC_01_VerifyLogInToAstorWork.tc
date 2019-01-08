@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01_VerifyLogInToAstorWork</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8a80b0d-29e3-4462-9f06-0d5431bd1f1e</testCaseGuid>
+   <variable>
+      <defaultValue>'Projects'</defaultValue>
+      <description></description>
+      <id>2cdfc245-7199-4b28-bc72-a7ae9e094d28</id>
+      <masked>true</masked>
+      <name>ClickProjects</name>
+   </variable>
+   <variable>
+      <defaultValue>'Stages'</defaultValue>
+      <description></description>
+      <id>e3f5dabf-325c-4500-a7b2-edc81c056688</id>
+      <masked>false</masked>
+      <name>StagesClick</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sites'</defaultValue>
+      <description></description>
+      <id>aeb06b03-b80b-4e6d-8845-14ee35780e4d</id>
+      <masked>false</masked>
+      <name>Sites</name>
+   </variable>
+</TestCaseEntity>

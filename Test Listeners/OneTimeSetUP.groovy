@@ -37,7 +37,7 @@ class OneTimeSetUP {
 	 */
 	
 		//Open Browser and Pass the required Url
-	@BeforeTestCase
+	@BeforeTestCase()
 	def sampleBeforeTestCase(TestCaseContext testCaseContext)
 	 {
 		
@@ -61,6 +61,15 @@ class OneTimeSetUP {
 		String todaysDate = today.format('dd_MM_yy');
 		String nowTime = today.format('hh_mm_ss');
 		WebUI.takeScreenshot(userDir +'\\'+ name +'_'+ nowTime +'_'+ todaysDate +".PNG");
+		}
+		
+		if(status=="PASSED")
+		{
+		Date today = new Date()
+		String todaysDate = today.format('MMM-dd-yyyy');
+		String nowTime = today.format('hh_mm_ss');
+		WebUI.waitForPageLoad(9)
+		WebUI.takeScreenshot(userDir +'\\'+ name +'_'+ todaysDate +'_'+ nowTime +".PNG");
 		}
 		
 		WebUI.closeBrowser()

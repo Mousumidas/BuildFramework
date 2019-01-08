@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AstorWork,Chrome 71.0.3578.98,,2019-01-08 11:46:05,2019-01-08 11:47:21,1m - 15.557s,PASSED
+,,,,,,
+Test Cases/AstorWork/TC_01_VerifyLogInToAstorWork,Chrome 71.0.3578.98,,2019-01-08 11:46:06,2019-01-08 11:46:35,29.404s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-08 11:46:06,2019-01-08 11:46:27,21.261s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2019-01-08 11:46:27,2019-01-08 11:46:28,0.545s,PASSED
+loginScriptPage.UserLogIn.ClickSettingsButton(ClickProjects),Chrome 71.0.3578.98,,2019-01-08 11:46:28,2019-01-08 11:46:33,5.492s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-08 11:46:33,2019-01-08 11:46:35,1.667s,PASSED
+,,,,,,
+Test Cases/AstorWork/TC_02_VerifyCreatingNewProject,Chrome 71.0.3578.98,,2019-01-08 11:46:35,2019-01-08 11:47:21,45.472s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-08 11:46:35,2019-01-08 11:46:50,15.050s,PASSED
+loginScriptPage.UserLogIn.LogIn(),Chrome 71.0.3578.98,,2019-01-08 11:46:50,2019-01-08 11:46:51,0.419s,PASSED
+loginScriptPage.UserLogIn.ClickSettingsButton(ClickOnProject),Chrome 71.0.3578.98,,2019-01-08 11:46:51,2019-01-08 11:46:56,5.454s,PASSED
+createNewProject.NewProject.AddNewProject(AddCountry),Chrome 71.0.3578.98,,2019-01-08 11:46:56,2019-01-08 11:47:19,23.042s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-08 11:47:19,2019-01-08 11:47:21,1.227s,PASSED
